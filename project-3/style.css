@@ -1,0 +1,156 @@
+@font-face {
+    font-family:koreanfont;
+    src: url(assets/Korean_Calligraphy.ttf);
+}
+@font-face {
+    font-family:boldhelvetica;
+    src: url(assets/BoldHelvetica.otf);
+}
+@font-face {
+    font-family:lighthelvetica;
+    src: url(assets/LightHelvetica.otf);
+}
+
+@font-face {
+    font-family:koreanfont;
+    src: url(assets/koreanfont.ttf);
+}
+body{background-color:goldenrod;
+    text-align:center;
+    color:black;
+    font-size:60px;
+    font-family:boldhelvetica;
+}
+.body1{
+    background-color:goldenrod;
+    text-align:left;
+    color:black;
+    font-size:60px;
+    font-family:boldhelvetica;
+    margin-left: 50px;
+}
+.center{
+    text-align: center;
+   margin:auto;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding: 315px 0;
+}
+.comfortwoman{
+font-family:koreanfont;
+    font-size:30px;
+}
+a{
+text-decoration:none;
+color: black;
+}
+a:hover{
+color:white;
+}
+.description{
+    position:absolute;
+    margin-top:150px;
+    margin-left:50px;
+    font-family:lighthelvetica;
+    font-size:40px;
+}
+<span style="font-family: lighthelvetica"></span>
+body{
+margin: 0px;    
+}
+
+#box{
+    border:1px solid;
+    width:1610px;
+    height:600px;
+    font-size: 25px;
+    font-family:lighthelvetica;
+    text-align: right;
+    line-height:1.8;
+    padding:30px;
+   margin: 50px;
+
+}
+.img{
+    float:left;
+}
+.img2{
+   float:right;
+    margin-top:-125px;
+    margin-right:50px;
+}
+.clearfix::after {
+    content"";
+    clear:both;
+    display: table;
+}
+.butterflyvoice{
+    margin-top: -900px;
+}
+.centerimage{
+    display:flex;
+    text-align: center;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    padding:0px;
+    margin-top:100px;
+}
+
+.centerimage img{
+    padding:45px;
+    width:300px;
+    height:300px;
+}
+.indexpg img {
+  filter: blur(5px);
+    z-index: -1;
+}
+.indexpg img:hover {
+ filter: blur(0px);
+       z-index: -1;
+}
+.circle{
+width:700px;
+height:700px;
+border-radius:50%;
+top: 60px;
+left: 550px;
+
+} 
+.scrolltext{
+    font-size:40px;
+    font-family:koreanfamily;
+    z-index:-1;
+    color:ghostwhite;
+    position:absolute;
+    top:0;
+    left:0;
+ line-height:2.0;
+}
+.centerbutterfly img{
+    width:50px;
+    height:50px;
+    top:0px;
+}
+.drawing img{
+    width:830px;
+}
+#box1{
+    border:1px solid;
+    width:1610px;
+    height:750px;
+    font-size: 25px;
+    font-family:lighthelvetica;
+    text-align: right;
+    line-height:1.8;
+    padding:30px;
+   margin: 50px;
+}
+.lastkoreanfont{
+    font-family:koreanfont;
+    font-size:80px;
+    color:black;
+}
